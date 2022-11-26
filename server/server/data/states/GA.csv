@@ -1,0 +1,18 @@
+cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
+N00035346,Buddy Carter,Carter,R,GA01,M,2014,0,,202-225-5831,202-226-2269,http://buddycarter.house.gov,,432 Cannon House Office Building,C001103,,H4GA01039,RepBuddyCarter,,congressmanbuddycarter,1957-09-06
+N00002674,Sanford Bishop,Bishop,D,GA02,M,1992,0,,202-225-3631,202-225-2203,http://bishop.house.gov,http://bishop.house.gov/contact,2407 Rayburn House Office Building,B000490,26817,H2GA02031,SanfordBishop,https://youtube.com/RepSanfordBishop,sanfordbishop,1947-02-04
+N00039090,Drew Ferguson,Ferguson,R,GA03,M,2016,0,,202-225-5901,,https://ferguson.house.gov,,1032 Longworth House Office Building,F000465,,,RepDrewFerguson,,RepDrewFerguson,1967-11-15
+N00027848,Hank Johnson,Johnson,D,GA04,M,2006,0,,202-225-1605,202-226-0691,https://hankjohnson.house.gov,https://hankjohnson.house.gov/contact-me/email-me,2240 Rayburn House Office Building,J000288,68070,H6GA04129,RepHankJohnson,https://youtube.com/RepHankJohnson,RepHankJohnson,1954-10-02
+N00047361,Nikema Williams,Williams,D,GA05,F,2020,0,,202225-3801,,https://nikemawilliams.house.gov/,,"1406 Longworth House Office Building Washington, DC  20515",W000788,,,@RepNikema,,,07/30/78
+N00042813,Lucy McBath,McBath,D,GA06,F,2018,0,,202-225-4501,,https://mcbath.house.gov/,,1513 Longworth House Office Building,M001208,,,,,,1960-06-01
+N00041791,Carolyn Bourdeaux,Bourdeaux,D,GA07,F,2020,20,Lost primary,202225-4272,,https://bourdeaux.house.gov/,,,B001312,,,@RepBourdeaux,,RepBourdeaux,06/03/70
+N00032457,Austin Scott,Scott,R,GA08,M,2010,0,,202-225-6531,202-225-3013,https://austinscott.house.gov,https://austinscott.house.gov/email-me/,2417 Rayburn House Office Building,S001189,11812,H0GA08099,AustinScottGA08,https://youtube.com/RepAustinScott,RepAustinScott,1969-12-10
+N00046654,Andrew Clyde,Clyde,R,GA09,M,2020,0,,202225-9893,202226-1224,https://clyde.house.gov/,,"521 Cannon House Office Building Washington, DC  20515",C001116,,,,,CongressmanClyde,11/22/63
+N00032243,Jody Hice,Hice,R,GA10,M,2014,3,Running for Secretary of State,202-225-4101,202-226-0776,https://hice.house.gov,,324 Cannon House Office Building,H001071,,H0GA07125,congressmanhice,,CongressmanJodyHice,1960-04-22
+N00035347,Barry Loudermilk,Loudermilk,R,GA11,M,2014,0,,202-225-2931,202-225-2944,http://loudermilk.house.gov,,329 Cannon House Office Building,L000583,,H4GA11061,RepLoudermilk,,reploudermilk,1963-12-22
+N00033720,Richard W Allen,Allen,R,GA12,M,2014,0,,202-225-2823,202-225-3377,http://allen.house.gov,,426 Cannon House Office Building,A000372,,H0GA02241,reprickallen,,CongressmanRickAllen,1951-11-07
+N00024871,David Scott,Scott,D,GA13,M,2002,0,,202-225-2939,202-225-4628,http://davidscott.house.gov,https://davidscott.house.gov/contact/contactform.htm,225 Cannon House Office Building,S001157,7826,H2GA13012,RepDavidScott,https://youtube.com/RepDavidScott,113303673339,1945-06-27
+N00044701,Marjorie Taylor Greene,Greene,R,GA14,F,2020,0,,202225-5211,,https://greene.house.gov/,,"1023 Longworth House Office Building Washington, DC  20515",G000596,,,@RepMTG,,,05/27/74
+N00040675,Jon Ossoff,Ossoff,D,GAS1,M,2021,0,,202-224-3521,,https://www.ossoff.senate.gov/,,"Hart Senate Office Building Suite 825 B&C    Washington, DC 20510",O000174,,,@ossoff,,,02/16/87
+N00046489,Raphael Warnock,Warnock,D,GAS2,M,2021,0,Won 2020 general runoff 1/5/2022,202224-3643,,https://www.warnock.senate.gov/,,"Dirksen Senate Office Building Suite B40D  Washington, DC 20510",W000790,,,@SenatorWarnock,,,07/23/69
+N00046125,Kelly Loeffler,Loeffler,R,GAS2,F,2020,13,,,,,,,,,,,,,

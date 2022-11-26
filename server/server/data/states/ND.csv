@@ -1,0 +1,4 @@
+cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
+N00042868,Kelly Armstrong,Armstrong,R,ND01,M,2018,0,,202-225-2611,,https://armstrong.house.gov/,,1004 Longworth House Office Building,A000377,,,RepArmstrongND,,,1976-10-08
+N00031688,John Hoeven,Hoeven,R,NDS1,M,2010,0,,202-224-2551,202-224-7999,https://www.hoeven.senate.gov,http://www.hoeven.senate.gov/public/index.cfm/email-the-senator,338 Russell Senate Office Building,H001061,41788,S0ND00093,SenJohnHoeven,https://youtube.com/senatorjohnhoevennd,SenatorJohnHoeven,1957-03-13
+N00004614,Kevin Cramer,Cramer,R,NDS2,M,2018,0,,202-225-2611,202-226-0893,http://cramer.house.gov,https://cramer.house.gov/contact/email-me,1717 Longworth House Office Building,C001096,444,H0ND01026,RepKevinCramer,https://youtube.com/kevincramer,CongressmanKevinCramer,1961-01-21

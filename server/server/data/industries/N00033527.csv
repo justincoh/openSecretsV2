@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+A01,Crop Production & Basic Processing,100900,81200,182100,06/10/2019,2018
+A07,Agricultural Services/Products,5650,78500,84150,06/10/2019,2018
+F10,Real Estate,60751,17500,78251,06/10/2019,2018
+H01,Health Professionals,25300,50000,75300,06/10/2019,2018
+W06,Retired,53850,0,53850,06/10/2019,2018
+K01,Lawyers/Law Firms,30050,15950,46000,06/10/2019,2018
+N03,Retail Sales,8100,32500,40600,06/10/2019,2018
+K02,Lobbyists,35250,3000,38250,06/10/2019,2018
+M01,Air Transport,0,37500,37500,06/10/2019,2018
+E01,Oil & Gas,2000,35000,37000,06/10/2019,2018

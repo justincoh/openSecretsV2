@@ -1,0 +1,12 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+P03,Transportation Unions,0,45200,45200,06/10/2019,2018
+H01,Health Professionals,18950,17500,36450,06/10/2019,2018
+M01,Air Transport,1250,35200,36450,06/10/2019,2018
+M04,Railroads,0,36000,36000,06/10/2019,2018
+K01,Lawyers/Law Firms,16103,11000,27103,06/10/2019,2018
+C04,Construction Services,1750,20500,22250,06/10/2019,2018
+P01,Building Trade Unions,0,20000,20000,06/10/2019,2018
+P04,Public Sector Unions,0,20000,20000,06/10/2019,2018
+M02,Automotive,0,16500,16500,06/10/2019,2018
+F10,Real Estate,9800,6000,15800,06/10/2019,2018
+F13,Misc Finance,15800,0,15800,06/10/2019,2018

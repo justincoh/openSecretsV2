@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+B02,TV/Movies/Music,60115,18500,78615,06/10/2019,2018
+K01,Lawyers/Law Firms,31513,18434,49947,06/10/2019,2018
+F10,Real Estate,31191,5000,36191,06/10/2019,2018
+N05,Business Services,27785,6000,33785,06/10/2019,2018
+F07,Securities & Investment,23652,10000,33652,06/10/2019,2018
+P04,Public Sector Unions,250,29500,29750,06/10/2019,2018
+H01,Health Professionals,14721,15000,29721,06/10/2019,2018
+W06,Retired,28783,0,28783,06/10/2019,2018
+K02,Lobbyists,24550,0,24550,06/10/2019,2018
+P02,Industrial Unions,0,23500,23500,06/10/2019,2018
