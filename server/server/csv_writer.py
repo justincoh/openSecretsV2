@@ -44,6 +44,11 @@ class DataPuller(object):
             "failures": INDUSTRY_FAILURES,
             "file_path": "./data/industries/",
             "fetch_function": self.get_top_ten_industries_for_cid,
+          },
+          "summaries": {
+            "failures": [],  # haven't encountered any summary failures yet
+            "file_path": "./data/summaries/",
+            "fetch_function": self.get_candidate_overall_summary,
           }
         }
 
@@ -52,9 +57,9 @@ class DataPuller(object):
         Assumes getLegislators has already been run for all states
         and the data is saved in ./data/states/{state_code}.csv
 
-        method must be one of 'industries' or 'sectors'
+        method must be one of ['industries', 'sectors', 'summaries']
         """
-        if method not in ["industries", "sectors"]:
+        if method not in ["industries", "sectors", "summaries"]:
           raise NotImplementedError(f"Cannot pull data for method: {method}")
 
         # so we don't go fetch things for candidates we already did, OS api has a small
@@ -165,5 +170,16 @@ class DataPuller(object):
                 obj["last_updated"] = response["last_updated"]
                 obj["cycle"] = response["cycle"]
                 writer.writerow(obj)
+
+        print(f"wrote file {file_name}")
+
+    def get_candidate_overall_summary(self, cid):
+        # candidate overall summary is a much simpler endpoint
+        response = self.client.get_candidate_summary(cid=cid)
+        file_name = f"./data/summaries/{cid}.csv"
+        with open(file_name, "w") as outfile:
+            writer = csv.DictWriter(outfile, fieldnames=response.keys())
+            writer.writeheader()
+            writer.writerow(response)
 
         print(f"wrote file {file_name}")

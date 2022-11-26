@@ -59,7 +59,7 @@ class Client(object):
     https://www.opensecrets.org/api/?method=candSummary&output=doc
     """
 
-    kwargs = {"id": cid}
+    kwargs = {"cid": cid}
 
     if cycle:
       kwargs["cycle"] = cycle
