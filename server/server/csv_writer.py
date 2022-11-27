@@ -3,7 +3,7 @@ import time
 from pathlib import Path
 
 from client import Client, RateLimitError, ClientError
-from constants import STATES, INDUSTRY_FAILURES, SECTOR_FAILURES, API_KEY
+from constants import STATES, FAILED_CIDS, API_KEY
 
 # https://www.pythontutorial.net/python-basics/python-write-csv-file/
 # do this but you have to parse into the @attributes
@@ -36,12 +36,12 @@ class DataPuller(object):
 
         self.method_map = {
           "sectors": {
-            "failures": SECTOR_FAILURES,
+            "failures": FAILED_CIDS,
             "file_path": "./data/sectors/",
             "fetch_function": self.get_sector_summary_for_cid,
           },
           "industries": {
-            "failures": INDUSTRY_FAILURES,
+            "failures": FAILED_CIDS,
             "file_path": "./data/industries/",
             "fetch_function": self.get_top_ten_industries_for_cid,
           },
