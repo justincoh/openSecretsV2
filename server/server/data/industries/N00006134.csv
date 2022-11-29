@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H04,Pharmaceuticals/Health Products,5250,142150,147400,06/10/2019,2018
+H01,Health Professionals,17526,101000,118526,06/10/2019,2018
+K01,Lawyers/Law Firms,72050,37000,109050,06/10/2019,2018
+F10,Real Estate,48048,7000,55048,06/10/2019,2018
+W06,Retired,51572,0,51572,06/10/2019,2018
+F07,Securities & Investment,39250,12000,51250,06/10/2019,2018
+B09,Telecom Services,11810,31200,43010,06/10/2019,2018
+H03,Health Services/HMOs,2325,34200,36525,06/10/2019,2018
+F09,Insurance,530,33000,33530,06/10/2019,2018
+P04,Public Sector Unions,0,33200,33200,06/10/2019,2018

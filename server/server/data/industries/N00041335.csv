@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+Q01,Republican/Conservative,108372,9000,117372,06/10/2019,2018
+Q03,Leadership PACs,48991,60000,108991,06/10/2019,2018
+W06,Retired,61117,0,61117,06/10/2019,2018
+F10,Real Estate,26180,7500,33680,06/10/2019,2018
+A06,Livestock,28850,0,28850,06/10/2019,2018
+N15,Misc Manufacturing & Distributing,22650,1000,23650,06/10/2019,2018
+E01,Oil & Gas,7500,15000,22500,06/10/2019,2018
+A01,Crop Production & Basic Processing,1000,20500,21500,06/10/2019,2018
+Q16,Candidate Committees,500,19000,19500,06/10/2019,2018
+E08,Electric Utilities,2800,16500,19300,06/10/2019,2018

@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+E01,Oil & Gas,27100,45500,72600,06/10/2019,2018
+F09,Insurance,22450,26500,48950,06/10/2019,2018
+W06,Retired,48864,0,48864,06/10/2019,2018
+F10,Real Estate,36500,7000,43500,06/10/2019,2018
+H01,Health Professionals,18550,23500,42050,06/10/2019,2018
+A04,Dairy,5950,36100,42050,06/10/2019,2018
+A07,Agricultural Services/Products,0,41999,41999,06/10/2019,2018
+A01,Crop Production & Basic Processing,28328,13000,41328,06/10/2019,2018
+A09,Food Processing & Sales,12750,26350,39100,06/10/2019,2018
+A10,Forestry & Forest Products,4500,34500,39000,06/10/2019,2018

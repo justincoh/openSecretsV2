@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+F07,Securities & Investment,500,130000,130500,06/10/2019,2018
+F09,Insurance,0,125500,125500,06/10/2019,2018
+F03,Commercial Banks,5250,104000,109250,06/10/2019,2018
+H01,Health Professionals,4500,82500,87000,06/10/2019,2018
+F06,Finance/Credit Companies,2700,51500,54200,06/10/2019,2018
+F10,Real Estate,3500,43000,46500,06/10/2019,2018
+A01,Crop Production & Basic Processing,0,39000,39000,06/10/2019,2018
+N01,Food & Beverage,500,35000,35500,06/10/2019,2018
+F11,Accountants,0,32500,32500,06/10/2019,2018
+K01,Lawyers/Law Firms,14100,16250,30350,06/10/2019,2018

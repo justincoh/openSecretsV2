@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+K01,Lawyers/Law Firms,60600,7000,67600,06/10/2019,2018
+Q03,Leadership PACs,0,56200,56200,06/10/2019,2018
+W06,Retired,37550,0,37550,06/10/2019,2018
+E01,Oil & Gas,25650,9500,35150,06/10/2019,2018
+F03,Commercial Banks,6500,19500,26000,06/10/2019,2018
+H01,Health Professionals,18600,7000,25600,06/10/2019,2018
+C05,Building Materials & Equipment,24000,500,24500,06/10/2019,2018
+F09,Insurance,14150,10000,24150,06/10/2019,2018
+C01,General Contractors,20100,3500,23600,06/10/2019,2018
+H02,Hospitals/Nursing Homes,19250,2500,21750,06/10/2019,2018
