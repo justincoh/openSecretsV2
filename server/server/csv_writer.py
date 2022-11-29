@@ -2,11 +2,10 @@ import csv
 import time
 from pathlib import Path
 
+from utils import list_files_in_dir
 from client import Client, RateLimitError, ClientError
 from constants import STATES, FAILED_CIDS, API_KEY
 
-# https://www.pythontutorial.net/python-basics/python-write-csv-file/
-# do this but you have to parse into the @attributes
 def fill_csv(state_code="", client=None):
     state_reps = client.get_legislators_for_state(state_code=state_code)
     headers = state_reps[0]["@attributes"].keys()
@@ -35,21 +34,21 @@ class DataPuller(object):
             self.client = Client(api_key=API_KEY)
 
         self.method_map = {
-          "sectors": {
-            "failures": FAILED_CIDS,
-            "file_path": "./data/sectors/",
-            "fetch_function": self.get_sector_summary_for_cid,
-          },
-          "industries": {
-            "failures": FAILED_CIDS,
-            "file_path": "./data/industries/",
-            "fetch_function": self.get_top_ten_industries_for_cid,
-          },
-          "summaries": {
-            "failures": [],  # haven't encountered any summary failures yet
-            "file_path": "./data/summaries/",
-            "fetch_function": self.get_candidate_overall_summary,
-          }
+            "sectors": {
+                "failures": FAILED_CIDS,
+                "file_path": "./data/sectors/",
+                "fetch_function": self.get_sector_summary_for_cid,
+            },
+            "industries": {
+                "failures": FAILED_CIDS,
+                "file_path": "./data/industries/",
+                "fetch_function": self.get_top_ten_industries_for_cid,
+            },
+            "summaries": {
+                "failures": [],  # haven't encountered any summary failures yet
+                "file_path": "./data/summaries/",
+                "fetch_function": self.get_candidate_overall_summary,
+            },
         }
 
     def pull_data_for_all_candidates(self, method=""):
@@ -60,21 +59,23 @@ class DataPuller(object):
         method must be one of ['industries', 'sectors', 'summaries']
         """
         if method not in ["industries", "sectors", "summaries"]:
-          raise NotImplementedError(f"Cannot pull data for method: {method}")
+            raise NotImplementedError(f"Cannot pull data for method: {method}")
 
         # so we don't go fetch things for candidates we already did, OS api has a small
         # daily call limit, don't want to do extra work
-        existing_candidate_summaries = self.list_files_in_dir(self.method_map[method]["file_path"])
+        existing_candidate_summaries = list_files_in_dir(
+            self.method_map[method]["file_path"]
+        )
 
         # this relies on the files being saved in CID.csv format
         existing_cid_set = set(
             [name.split(".")[0] for name in existing_candidate_summaries]
         )
-        
+
         # these are ones that failed mostly due to 404 cuz the data is missing
         existing_cid_set.update(self.method_map[method]["failures"])
 
-        state_csvs = self.list_files_in_dir("./data/states/")
+        state_csvs = list_files_in_dir("./data/states/")
 
         failures = []
         # get all CIDs for a state
@@ -107,13 +108,6 @@ class DataPuller(object):
 
         print(f"All done. The following candidates failed to fetch: {failures}")
 
-    def list_files_in_dir(self, dir):
-        file_names = []
-        for f in Path(dir).iterdir():
-            file_names.append(f.name)
-
-        return file_names
-
     def get_candidate_ids_from_state_file(self, file_path):
         candidate_ids = []
         with open(file_path) as csvfile:
@@ -123,7 +117,6 @@ class DataPuller(object):
                 candidate_ids.append(row["cid"])
 
         return candidate_ids
-
 
     def get_sector_summary_for_cid(self, cid):
         # wrap this in a try / except in the eventual caller to be safe
