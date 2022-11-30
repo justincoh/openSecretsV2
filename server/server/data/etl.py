@@ -1,50 +1,61 @@
 import csv
 from utils import list_files_in_dir
 
-def create_master_rep_list():
-  all_reps = consolidate_all_candidates()
-  write_final_csv(all_reps)
+INDUSTRIES = "industries"
+SECTORS = "sectors"
+STATES = "states"
+SUMMARIES = "summaries"
+
+def generate_master_data_file_for_type(data_type=""):
+  if data_type not in [INDUSTRIES, SECTORS, STATES, SUMMARIES]:
+    raise NotImplementedError(f"{data_type} is not valid for ETL")
+
+  all_records = consolidate_records(data_type)
+
+  write_final_csv(all_records, file_path=f"./data/{data_type}/ALL_CANDIDATES.csv")
 
 
-def consolidate_all_candidates():
+def consolidate_records(data_type=""):
   """
-  It's easier to pull from OpenSecrets state by state
-  So this script relies on having all 50 state files
-  This function adds a 'state' key to each object and
-  returns the full list
+  This script relies on all records already being pulled for all candidates
+  which takes a few days based on OpenSecrets API limit
   """
-  all_candidate_files = list_files_in_dir("./data/states/")
-  all_candidates = []
 
-  for file_name in all_candidate_files:
-    with open(f"./data/states/{file_name}", "r") as infile:
+  dir_to_read = f"./data/{data_type}"
+  all_files = list_files_in_dir(dir_to_read)
+  all_records = []
+
+  print(f"Working on {len(all_files)} files in dir {dir_to_read}")
+
+  for file_name in all_files:
+    with open(f"./data/{data_type}/{file_name}", "r") as infile:
       reader = csv.DictReader(infile)
       data = [row for row in reader]
-      
-      # There's no 'State' field on the candidate records
-      # there is an 'office' e.g. NJS1 = NJSenator 1
-      # this is for convenience later, I want a 'state' column
-      for cand in data:
-        cand["state"] = cand["office"][:2]
-      
-      all_candidates.extend(data)
 
-  return all_candidates
+      if data_type == STATES:
+        for cand in data:
+          cand["state"] = cand["office"][:2]
+      elif data_type != SUMMARIES:
+        # Only the state / summary records contain a CID column, but we need it
+        # to be able to uniquely identify candidates across datasets
+        for record in data:
+          record["cid"] = file_name.split(".")[0]  # N00003028.csv -> N00003028
 
+      all_records.extend(data)
 
-def write_final_csv(all_candidates):
+  return all_records
+
+def write_final_csv(all_records, file_path=""):
   """
   Compiles the reps from all 50 state files into one master csv
   So I can seed a DB with it directly (and make updating easier)
   """
-  file_name = "ALL_CANDIDATES.CSV"
-  headers = all_candidates[0].keys()
-  with open(f"./data/states/{file_name}", "w") as outfile:
+  headers = all_records[0].keys()
+  with open(f"{file_path}", "w") as outfile:
     writer = csv.DictWriter(outfile, fieldnames=headers)
     writer.writeheader()
 
-    for rep in all_candidates:
+    for rep in all_records:
       writer.writerow(rep)
 
-  print(f"Saved {len(all_candidates)} reps to {file_name}, Done.")
-  
+  print(f"Saved {len(all_records)} records to {file_path}, Done.")
