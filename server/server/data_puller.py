@@ -1,12 +1,11 @@
 import csv
 import time
-from pathlib import Path
 
 from utils import list_files_in_dir
 from client import Client, RateLimitError, ClientError
 from constants import STATES, FAILED_CIDS, API_KEY
 
-def fill_csv(state_code="", client=None):
+def write_state_csv(state_code="", client=None):
     state_reps = client.get_legislators_for_state(state_code=state_code)
     headers = state_reps[0]["@attributes"].keys()
 
@@ -22,8 +21,11 @@ def fill_csv(state_code="", client=None):
 
 
 def write_all_states(client=None):
+    if client is None:
+        client = Client(api_key=API_KEY)
+
     for state_code in STATES.keys():
-        fill_csv(state_code=state_code, client=client)
+        write_state_csv(state_code=state_code, client=client)
         time.sleep(1)
 
 
