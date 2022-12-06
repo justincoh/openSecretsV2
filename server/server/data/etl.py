@@ -1,5 +1,7 @@
 import csv
 from utils import list_files_in_dir
+from . import CID_STATE_MAP
+from constants import STATES
 
 INDUSTRIES = "industries"
 SECTORS = "sectors"
@@ -59,3 +61,40 @@ def write_final_csv(all_records, file_path=""):
       writer.writerow(rep)
 
   print(f"Saved {len(all_records)} records to {file_path}, Done.")
+
+
+def create_cid_state_map():
+  # read all_candidates_summaries, it has a state column
+  with open("./data/summaries/ALL_CANDIDATES_SUMMARIES.csv") as infile:
+      reader = csv.DictReader(infile)
+      data = [row for row in reader]
+    
+  cid_state_map = {}
+  for cand in data:
+    cid_state_map[cand["cid"]] = cand["state"]
+
+  # just manually paste this thing into a data file
+  return cid_state_map
+
+
+def sum_sectors_by_state():
+  with open("./data/sectors/ALL_CANDIDATES_SECTORS.csv") as infile:
+    reader = csv.DictReader(infile)
+    data = [row for row in reader]
+
+  # prepopulate this for ease
+  result = {}
+  for state in STATES.keys():
+    result[state] = {
+      "indivs": 0,
+      "pacs": 0,
+      "total": 0,
+    }
+
+  for rep in data:
+    state = CID_STATE_MAP[rep["cid"]]
+    result[state]["indivs"] += int(rep["indivs"])
+    result[state]["pacs"] += int(rep["pacs"])
+    result[state]["total"] += int(rep["total"])
+
+  return result
