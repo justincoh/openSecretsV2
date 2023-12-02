@@ -1,12 +1,11 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
-N00031390,Jim Hagedorn,Hagedorn,R,MN01,M,2018,1,"Died on February 17, 2022",202-225-2472,,https://hagedorn.house.gov/,,325 Cannon House Office Building,H001088,,,,,,1962-08-04
-N00050649,Brad Finstad,Finstad,R,MN01,M,2022,0,Won special 8/9/2022,,,,,,,,,,,,
-N00037039,Angie Craig,Craig,D,MN02,F,2018,0,,202-225-2271,,https://craig.house.gov/,,1523 Longworth House Office Building,C001119,,,RepAngieCraig,,,1972-02-14
-N00041134,Dean Phillips,Phillips,D,MN03,M,2018,0,,202-225-2871,,https://phillips.house.gov/,,1305 Longworth House Office Building,P000616,,,RepDeanPhillips,,,1969-01-20
+N00050649,Brad Finstad,Finstad,R,MN01,M,2022,0,,,,,,,,,,,,,
+N00037039,Angie Craig,Craig,D,MN02,F,2018,0,,202-225-2271,,https://craig.house.gov/,,1523 Longworth House Office Building,C001119,,H6MN02131,RepAngieCraig,,,1972-02-14
+N00041134,Dean Phillips,Phillips,D,MN03,M,2018,0,,202-225-2871,,https://phillips.house.gov/,,1305 Longworth House Office Building,P000616,,H8MN03143,RepDeanPhillips,,,1969-01-20
 N00012942,Betty McCollum,Mccollum,D,MN04,F,2000,0,,202-225-6631,202-225-1968,http://mccollum.house.gov,https://mccollum.house.gov/contact-me/email-me,2256 Rayburn House Office Building,M001143,3812,H0MN04049,BettyMcCollum04,,repbettymccollum,1954-07-12
-N00043581,Ilhan Omar,Omar,D,MN05,F,2018,0,,202-225-4755,,https://omar.house.gov/,,1517 Longworth House Office Building,O000173,,,,,,1981-10-04
+N00043581,Ilhan Omar,Omar,D,MN05,F,2018,0,,202-225-4755,,https://omar.house.gov/,,1517 Longworth House Office Building,O000173,,H8MN05239,,,,1981-10-04
 N00035440,Tom Emmer,Emmer,R,MN06,M,2014,0,,202-225-2331,202-225-6475,https://emmer.house.gov,,315 Cannon House Office Building,E000294,,H4MN06087,RepTomEmmer,,reptomemmer,1961-03-03
 N00045251,Michelle Fischbach,Fischbach,R,MN07,F,2020,0,,202225-2165,202225-1593,https://fischbach.house.gov/,,"1237 Longworth House Office Building Washington, DC  20515",F000470,,,@RepFischbach,,RepFischbach,11/03/65
-N00041511,Pete Stauber,Stauber,R,MN08,M,2018,0,,202-225-6211,,https://stauber.house.gov/,,126 Cannon House Office Building,S001212,,,RepPeteStauber,,,1966-05-10
-N00042353,Tina Smith,Smith,D,MNS1,F,2018,0,,202-224-5641,,https://www.smith.senate.gov,https://www.smith.senate.gov/content/contact-senator,309 Hart Senate Office Building,S001203,,,SenTinaSmith,,USSenTinaSmith,1958-03-04
+N00041511,Pete Stauber,Stauber,R,MN08,M,2018,0,,202-225-6211,,https://stauber.house.gov/,,126 Cannon House Office Building,S001212,,H8MN08043,RepPeteStauber,,,1966-05-10
+N00042353,Tina Smith,Smith,D,MNS1,F,2018,0,,202-224-5641,,https://www.smith.senate.gov,https://www.smith.senate.gov/content/contact-senator,309 Hart Senate Office Building,S001203,,S8MN00578,SenTinaSmith,,USSenTinaSmith,1958-03-04
 N00027500,Amy Klobuchar,Klobuchar,D,MNS2,F,2006,0,,202-224-3244,202-228-2186,https://www.klobuchar.senate.gov,http://www.klobuchar.senate.gov/public/index.cfm/contact,302 Hart Senate Office Building,K000367,65092,S6MN00267,AmyKlobuchar,https://youtube.com/senatorklobuchar,AmyKlobuchar,1960-05-25

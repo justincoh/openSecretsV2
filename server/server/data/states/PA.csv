@@ -1,21 +1,20 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
-N00038779,Brian Fitzpatrick,Fitzpatrick,R,PA01,M,2016,0,,202-225-4276,,https://brianfitzpatrick.house.gov,,514 Cannon House Office Building,F000466,,,repbrianfitz,,repbrianfitzpatrick,1973-12-17
+N00038779,Brian Fitzpatrick,Fitzpatrick,R,PA01,M,2016,0,,202-225-4276,,https://brianfitzpatrick.house.gov,,514 Cannon House Office Building,F000466,,H6PA08277,repbrianfitz,,repbrianfitzpatrick,1973-12-17
 N00035307,Brendan Boyle,Boyle,D,PA02,M,2014,0,,202-225-6111,202-226-0611,https://boyle.house.gov,,1133 Longworth House Office Building,B001296,,H4PA13199,RepBrendanBoyle,,CongressmanBoyle,1977-02-06
-N00038450,Dwight Evans,Evans,D,PA03,M,2016,0,,202-225-4001,,https://evans.house.gov,,1105 Longworth House Office Building,E000296,,,RepDwightEvans,,RepDwightEvans,1954-05-16
-N00042894,Madeleine Dean,Dean,D,PA04,F,2018,0,,202-225-4731,,https://dean.house.gov/,,129 Cannon House Office Building,D000631,,,,,,1959-06-06
-N00042706,Mary Gay Scanlon,Scanlon,D,PA05,F,2018,0,,202-225-2011,,https://scanlon.house.gov,,1535 Longworth House Office Building,S001205,,,,,,1959-08-30
-N00040949,Chrissy Houlahan,Houlahan,D,PA06,F,2018,0,,202-225-4315,,https://houlahan.house.gov/,,1218 Longworth House Office Building,H001085,,,RepHoulahan,,,1967-06-05
-N00041997,Susan Wild,Wild,D,PA07,F,2018,0,,202-225-6411,,https://wild.house.gov,,1607 Longworth House Office Building,W000826,,,RepSusanWild,,,1957-06-07
+N00038450,Dwight Evans,Evans,D,PA03,M,2016,0,,202-225-4001,,https://evans.house.gov,,1105 Longworth House Office Building,E000296,,H6PA02171,RepDwightEvans,,RepDwightEvans,1954-05-16
+N00042894,Madeleine Dean,Dean,D,PA04,F,2018,0,,202-225-4731,,https://dean.house.gov/,,129 Cannon House Office Building,D000631,,H8PA04116,,,,1959-06-06
+N00042706,Mary Gay Scanlon,Scanlon,D,PA05,F,2018,0,,202-225-2011,,https://scanlon.house.gov,,1535 Longworth House Office Building,S001205,,H8PA07200,,,,1959-08-30
+N00040949,Chrissy Houlahan,Houlahan,D,PA06,F,2018,0,,202-225-4315,,https://houlahan.house.gov/,,1218 Longworth House Office Building,H001085,,H8PA06087,RepHoulahan,,,1967-06-05
+N00041997,Susan Wild,Wild,D,PA07,F,2018,0,,202-225-6411,,https://wild.house.gov,,1607 Longworth House Office Building,W000826,,H8PA15229,RepSusanWild,,,1957-06-07
 N00034128,Matt Cartwright,Cartwright,D,PA08,M,2012,0,,202-225-5546,570-341-1055,http://cartwright.house.gov,https://cartwrightforms.house.gov/forms/writeyourrep/,1034 Longworth House Office Building,C001090,136236,H2PA17079,RepCartwright,,CongressmanMattCartwright,1961-05-01
-N00029416,Dan Meuser,Meuser,R,PA09,M,2018,0,,202-225-6511,,https://meuser.house.gov/,,326 Cannon House Office Building,M001204,,,RepMeuser,,,1964-02-10
+N00029416,Dan Meuser,Meuser,R,PA09,M,2018,0,,202-225-6511,,https://meuser.house.gov/,,326 Cannon House Office Building,M001204,,H8PA10147,RepMeuser,,,1964-02-10
 N00034120,Scott Perry,Perry,R,PA10,M,2012,0,,202-225-5836,202-226-1000,http://perry.house.gov,http://perryforms.house.gov/forms/writeyourrep/,1207 Longworth House Office Building,P000605,59980,H2PA04135,RepScottPerry,https://youtube.com/RepScottPerry,Rep.ScottPerry,1962-05-27
-N00038781,Lloyd Smucker,Smucker,R,PA11,M,2016,0,,202-225-2411,,https://smucker.house.gov,,516 Cannon House Office Building,S001199,,,RepSmucker,,RepSmucker,1964-01-23
-N00044065,Fred Keller,Keller,R,PA12,M,2019,4,Retiring at end of 117th Congress,,,,,,,,,,,,
-N00043242,John Joyce,Joyce,R,PA13,M,2018,0,,202-225-2431,,https://johnjoyce.house.gov/,,1337 Longworth House Office Building,J000302,,,,,,1957-02-08
-N00041871,Guy Reschenthaler,Reschenthaler,R,PA14,M,2018,0,,202-225-2065,,https://reschenthaler.house.gov/,,531 Cannon House Office Building,R000610,,,,,,1983-04-17
+N00038781,Lloyd Smucker,Smucker,R,PA11,M,2016,0,,202-225-2411,,https://smucker.house.gov,,516 Cannon House Office Building,S001199,,H6PA16320,RepSmucker,,RepSmucker,1964-01-23
+N00049757,Summer Lee,Lee,D,PA12,F,2022,0,,,,,,,L000602,,H2PA18200,,,,
+N00043242,John Joyce,Joyce,R,PA13,M,2018,0,,202-225-2431,,https://johnjoyce.house.gov/,,1337 Longworth House Office Building,J000302,,H8PA13125,,,,1957-02-08
+N00041871,Guy Reschenthaler,Reschenthaler,R,PA14,M,2018,0,,202-225-2065,,https://reschenthaler.house.gov/,,531 Cannon House Office Building,R000610,,H8PA18199,,,,1983-04-17
 N00029736,Glenn Thompson,Thompson,R,PA15,M,2008,0,,202-225-5121,202-225-5796,http://thompson.house.gov,https://thompson.house.gov/contact-me/email-me,124 Cannon House Office Building,T000467,24046,H8PA05071,CongressmanGT,https://youtube.com/CongressmanGT,CongressmanGT,1959-07-27
 N00031647,Mike Kelly,Kelly,R,PA16,M,2010,0,,202-225-5406,202-225-3103,http://kelly.house.gov,https://kelly.house.gov/contact-me/email-me,1707 Longworth House Office Building,K000376,119463,H0PA03271,MikeKellyPA,https://youtube.com/repmikekelly,MikeKellyPA,1948-05-10
-N00041870,Conor Lamb,Lamb,D,PA17,M,2018,20,Lost Senate primary,202-225-2301,,https://lamb.house.gov/,,1224 Longworth House Office Building,L000588,,,RepConorLamb,,RepConorLamb,1984-06-27
-N00001373,Mike Doyle,Doyle,D,PA18,M,1994,4,Retiring at end of 117th Congress,202-225-2135,202-225-3084,http://doyle.house.gov,https://doyle.house.gov/contact-me/email-me,239 Cannon House Office Building,D000482,21853,H4PA18131,USRepMikeDoyle,https://youtube.com/CongressmanDoyle,usrepmikedoyle,1953-08-05
-N00001489,Pat Toomey,Toomey,R,PAS1,M,2010,4,Retiring at end of 117th Congress,202-224-4254,202-228-0284,https://www.toomey.senate.gov,https://www.toomey.senate.gov/?p=contact,248 Russell Senate Office Building,T000461,24096,S4PA00121,SenToomey,https://youtube.com/sentoomey,senatortoomey,1961-11-17
+N00049160,Christopher Deluzio,Deluzio,D,PA17,M,2022,0,,,,,,,D000530,,H2PA17103,,,,
+N00038201,John Fetterman,Fetterman,D,PAS1,M,2022,0,,,,,,,F000479,,S6PA00274,,,,
 N00027503,Bob Casey,Casey,D,PAS2,M,2006,0,,202-224-6324,202-228-0604,https://www.casey.senate.gov,https://www.casey.senate.gov/contact/,393 Russell Senate Office Building,C001070,2541,S6PA00217,SenBobCasey,https://youtube.com/SenatorBobCasey,SenatorBobCasey,1960-04-13

@@ -1,41 +1,41 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
-N00026148,Louie Gohmert,Gohmert,R,TX01,M,2004,3,Running for Texas Attorney General,202-225-3035,202-226-1230,https://gohmert.house.gov,http://gohmert.house.gov/contact/,2243 Rayburn House Office Building,G000552,50029,H4TX04039,RepLouieGohmert,https://youtube.com/GohmertTX01,50375006903,1953-08-18
-N00042224,Dan Crenshaw,Crenshaw,R,TX02,M,2018,0,,202-225-6565,,https://crenshaw.house.gov/,,413 Cannon House Office Building,C001120,,,RepDanCrenshaw,,,1984-03-14
-N00027709,Van Taylor,Taylor,R,TX03,M,2018,4,Retiring at end of 117th Congress,202-225-4201,,https://vantaylor.house.gov/,,1404 Longworth House Office Building,T000479,,,RepVanTaylor,,,1972-08-01
+N00049775,Nathaniel Moran,Moran,R,TX01,M,2022,0,,,,,,,M001224,,H2TX01112,,,,
+N00042224,Dan Crenshaw,Crenshaw,R,TX02,M,2018,0,,202-225-6565,,https://crenshaw.house.gov/,,413 Cannon House Office Building,C001120,,H8TX02166,RepDanCrenshaw,,,1984-03-14
+N00049337,Keith Self,Self,R,TX03,M,2022,0,,,,,,,S001224,,H2TX03290,,,,
 N00047264,Patrick Fallon,Fallon,R,TX04,M,2020,0,,202225-6673,,https://fallon.house.gov/,,"1118 Longworth HOB Washington, DC  20515",F000246,,,@RepPatFallon,https://www.youtube.com/RepPatFallon,RepPatFallon,12/19/67
-N00042237,Lance Gooden,Gooden,R,TX05,M,2018,0,,202-225-3484,,https://gooden.house.gov/,,425 Cannon House Office Building,G000589,,,,,,1982-12-01
-N00042240,Ron Wright,Wright,R,TX06,M,2018,1,"Died on February 7, 2021",202-225-2002,,https://wright.house.gov/,,428 Cannon House Office Building,W000827,,,RepRonWright,,,1953-04-08
-N00042243,Jake Ellzey,Ellzey,R,TX06,M,2021,0,Won special runoff 7/27/2021,,,,,,,,,,,,
-N00041194,Lizzie Fletcher,Fletcher,D,TX07,F,2018,0,,202-225-2571,,https://fletcher.house.gov/,,1429 Longworth House Office Building,F000468,,,RepFletcher,,,1975-02-13
-N00005883,Kevin Brady,Brady,R,TX08,M,1996,4,Retiring at end of 117th Congress,202-225-4901,202-225-5524,http://kevinbrady.house.gov,https://kevinbrady.house.gov/contact-form,1011 Longworth House Office Building,B000755,361,H6TX08100,RepKevinBrady,https://youtube.com/KBrady8,kevinbrady,1955-04-11
+N00042237,Lance Gooden,Gooden,R,TX05,M,2018,0,,202-225-3484,,https://gooden.house.gov/,,425 Cannon House Office Building,G000589,,H8TX05144,,,,1982-12-01
+N00042243,Jake Ellzey,Ellzey,R,TX06,M,2021,0,,,,,,,,,,,,,
+N00041194,Lizzie Fletcher,Fletcher,D,TX07,F,2018,0,,202-225-2571,,https://fletcher.house.gov/,,1429 Longworth House Office Building,F000468,,H8TX07140,RepFletcher,,,1975-02-13
+N00048776,Morgan Luttrell,Luttrell,R,TX08,M,2022,0,,,,,,,L000603,,H2TX08182,,,,
 N00026686,Al Green,Green,D,TX09,M,2004,0,,202-225-7508,202-225-2947,http://algreen.house.gov,https://algreen.house.gov/contact-me/email-me,2347 Rayburn House Office Building,G000553,49680,H4TX09095,RepAlGreen,https://youtube.com/RepAlGreen,repalgreen,1947-09-01
 N00026460,Michael McCaul,Mccaul,R,TX10,M,2004,0,,202-225-2401,202-225-5955,http://mccaul.house.gov,https://mccaul.house.gov/contact/email-me,2001 Rayburn House Office Building,M001157,49210,H4TX10093,RepMcCaul,https://youtube.com/MichaelTMcCaul,michaeltmccaul,1962-01-14
 N00045421,August Pfluger,Pfluger,R,TX11,M,2020,0,,202225-3605,,https://pfluger.house.gov/,,"1531 Longworth House Office Building, Washington, DC 20515",P000048,,,@RepPfluger,,,
-N00008799,Kay Granger,Granger,R,TX12,F,1996,0,,202-225-5071,202-225-5683,http://kaygranger.house.gov,http://kaygranger.house.gov/contact-kay/email-me,1026 Longworth House Office Building,G000377,334,H6TX12060,RepKayGranger,https://youtube.com/RepKayGranger,RepKayGranger,1943-01-18
+N00008799,Kay Granger,Granger,R,TX12,F,1996,4,Retiring at end of 118th Congress,202-225-5071,202-225-5683,http://kaygranger.house.gov,http://kaygranger.house.gov/contact-kay/email-me,1026 Longworth House Office Building,G000377,334,H6TX12060,RepKayGranger,https://youtube.com/RepKayGranger,RepKayGranger,1943-01-18
 N00046055,Ronny Jackson,Jackson,R,TX13,M,2020,0,,202225-3706,202225-3486,https://jackson.house.gov/,,"118 Cannon HOB Washington, DC 20515",J000304,,,@RepRonnyJackson,,,05/04/67
 N00033539,Randy Weber,Weber,R,TX14,M,2012,0,,202-225-2831,202-225-0271,http://weber.house.gov,https://weber.house.gov/contact/email-me,1708 Longworth House Office Building,W000814,102026,H2TX14149,TXRandy14,https://youtube.com/TXRandy14,TXRandy14,1953-07-02
-N00038809,Vicente Gonzalez,Gonzalez,D,TX15,M,2016,0,,202-225-2531,,https://gonzalez.house.gov,,113 Cannon House Office Building,G000581,,,RepGonzalez,,USCongressmanVicenteGonzalez,1967-09-04
-N00041702,Veronica Escobar,Escobar,D,TX16,F,2018,0,,202-225-4831,,https://escobar.house.gov/,,1505 Longworth House Office Building,E000299,,,RepEscobar,,,1969-09-15
+N00045793,Monica De La Cruz,De La Cruz,R,TX15,F,2022,0,,,,,,,D000594,,H0TX15124,,,,
+N00041702,Veronica Escobar,Escobar,D,TX16,F,2018,0,,202-225-4831,,https://escobar.house.gov/,,1505 Longworth House Office Building,E000299,,H8TX16109,RepEscobar,,,1969-09-15
 N00005681,Pete Sessions,Sessions,R,TX17,M,1996,0,,202-225-2231,202-225-5878,https://sessions.house.gov,https://sessions.house.gov/index.cfm/contact-form,2233 Rayburn House Office Building,S000250,288,H2TX03126,PeteSessions,https://youtube.com/PeteSessions,petesessions,1955-03-22
 N00005818,Sheila Jackson Lee,Jackson Lee,D,TX18,F,1994,0,,202-225-3816,202-225-3317,http://jacksonlee.house.gov,http://jacksonlee.house.gov/contact/,2187 Rayburn House Office Building,J000032,21692,H4TX18054,JacksonLeeTX18,https://youtube.com/TX18SJL,169479190984,1950-01-12
-N00038285,Jodey Arrington,Arrington,R,TX19,M,2016,0,,202-225-4005,,https://arrington.house.gov,,1029 Longworth House Office Building,A000375,,,RepArrington,,JodeyArrington,1972-03-09
+N00038285,Jodey Arrington,Arrington,R,TX19,M,2016,0,,202-225-4005,,https://arrington.house.gov,,1029 Longworth House Office Building,A000375,,H6TX19099,RepArrington,,JodeyArrington,1972-03-09
 N00033316,Joaquin Castro,Castro,D,TX20,M,2012,0,,202-225-3236,202-225-1915,https://castro.house.gov,https://castro.house.gov/contact/email-me,1221 Longworth House Office Building,C001091,49227,H2TX35011,JoaquinCastrotx,https://youtube.com/JoaquinCastroTX,JoaquinCastroTX,1974-09-16
-N00042268,Chip Roy,Roy,R,TX21,M,2018,0,,202-225-4236,,https://roy.house.gov/,,1319 Longworth House Office Building,R000614,,,,,,1972-08-07
+N00042268,Chip Roy,Roy,R,TX21,M,2018,0,,202-225-4236,,https://roy.house.gov/,,1319 Longworth House Office Building,R000614,,H8TX21307,,,,1972-08-07
 N00046067,Troy Nehls,Nehls,R,TX22,M,2020,0,,202225-5951,202225-5241,https://nehls.house.gov/,,"1104 Longworth House Office Building Washington, DC  20515",N000026,188334,,@RepTroyNehls,,,04/07/68
 N00044592,Tony Gonzales,Gonzales,R,TX23,M,2020,0,,202225-4511,202225-2237,https://gonzales.house.gov/,,"1009 Longworth House Office Building, Washington, DC 20515",G000594,,,@RepTonyGonzales,,RepTonyGonzales,10/10/80
 N00045167,Beth Van Duyne,Van Duyne,R,TX24,F,2020,0,,202225-6605,,https://vanduyne.house.gov/,,"1337 Longworth House Office Building, Washington, DC 20515",V000134,79150,,@RepBethVanDuyne,,,11/16/70
 N00030602,Roger Williams,Williams,R,TX25,M,2012,0,,202-225-9896,512-473-8946,http://williams.house.gov,https://williams.house.gov/contact/email-me,1323 Longworth House Office Building,W000816,50112,H2TX33040,RepRWilliams,,RepRogerWilliams,1949-09-13
 N00025219,Michael Burgess,Burgess,R,TX26,M,2002,0,,202-225-7772,202-225-2919,http://burgess.house.gov,http://burgess.house.gov/contact/356345.htm,2336 Rayburn House Office Building,B001248,50120,H2TX26093,MichaelCBurgess,https://youtube.com/michaelcburgessmd,michaelcburgess,1950-12-23
-N00041882,Michael Cloud,Cloud,R,TX27,M,2018,0,,202-225-7742,,https://cloud.house.gov/,,1314 Longworth House Office Building,C001115,,,RepCloudTX,,,1975-05-13
+N00041882,Michael Cloud,Cloud,R,TX27,M,2018,0,,202-225-7742,,https://cloud.house.gov/,,1314 Longworth House Office Building,C001115,,H8TX27049,RepCloudTX,,,1975-05-13
 N00024978,Henry Cuellar,Cuellar,D,TX28,M,2004,0,,202-225-1640,202-225-1641,http://cuellar.house.gov,https://cuellar.house.gov/forms/writeyourrep/default.aspx,2209 Rayburn House Office Building,C001063,5486,H2TX23082,RepCuellar,https://youtube.com/henrycuellar,152569121550,1955-09-19
-N00042282,Sylvia Garcia,Garcia,D,TX29,F,2018,0,,202-225-1688,,https://sylviagarcia.house.gov/,,1620 Longworth House Office Building,G000587,,,RepSylviaGarcia,,,1950-09-06
-N00008122,Eddie Bernice Johnson,Johnson,D,TX30,F,1992,4,Retiring at end of 117th Congress,202-225-8885,202-226-1477,http://ebjohnson.house.gov,https://ebjohnson.house.gov/contact/email-me,2468 Rayburn House Office Building,J000126,27098,H2TX00015,RepEBJ,https://youtube.com/RepEddieBJohnson,CongresswomanEBJtx30,1935-12-03
+N00042282,Sylvia Garcia,Garcia,D,TX29,F,2018,0,,202-225-1688,,https://sylviagarcia.house.gov/,,1620 Longworth House Office Building,G000587,,H8TX29052,RepSylviaGarcia,,,1950-09-06
+N00049840,Jasmine Crockett,Crockett,D,TX30,F,2022,0,,,,,,,C001130,,H2TX30178,,,,
 N00025095,John Carter,Carter,R,TX31,M,2002,0,,202-225-3864,202-225-5886,https://carter.house.gov,https://carter.house.gov/email-john2,2110 Rayburn House Office Building,C001051,49296,H2TX31044,JudgeCarter,https://youtube.com/repjohncarter,judgecarter,1941-11-06
-N00040989,Colin Allred,Allred,D,TX32,M,2018,0,,202-225-2231,,https://allred.house.gov/,,328 Cannon House Office Building,A000376,,,RepColinAllred,,,1983-04-15
+N00040989,Colin Allred,Allred,D,TX32,M,2018,15,Running for Senate,202-225-2231,,https://allred.house.gov/,,328 Cannon House Office Building,A000376,,S4TX00722,RepColinAllred,,,1983-04-15
 N00033839,Marc Veasey,Veasey,D,TX33,M,2012,0,,202-225-9897,202-225-9702,http://veasey.house.gov,https://veaseyforms.house.gov/forms/writeyourrep/,1519 Longworth House Office Building,V000131,49671,H2TX33073,RepVeasey,https://youtube.com/marcveasey,CongressmanMarcVeasey,1971-01-03
-N00034349,Filemon Vela,Vela,D,TX34,M,2012,9,"Resigned to join Akin, Gump et al",202-225-9901,202-225-9770,https://vela.house.gov,https://forms.house.gov/vela/webforms/email-me.shtml,437 Cannon House Office Building,V000132,137719,H2TX27190,RepFilemonVela,,USCongressmanFilemonVela,1963-02-13
-N00048049,Mayra Flores,Flores,R,TX34,F,2022,0,Won special election on 6/14/2022,,,,,,,,,,,,
-N00006023,Lloyd Doggett,Doggett,D,TX35,M,1994,0,,202-225-4865,202-225-3073,https://doggett.house.gov,https://forms.house.gov/doggett/webforms/issue_subscribe.htm,2307 Rayburn House Office Building,D000399,21689,H4TX10028,RepLloydDoggett,https://youtube.com/doggett,lloyddoggett,1946-10-06
+N00038809,Vicente Gonzalez,Gonzalez,D,TX34,M,2016,0,,202-225-2531,,https://gonzalez.house.gov,,113 Cannon House Office Building,G000581,,H6TX15162,RepGonzalez,,USCongressmanVicenteGonzalez,1967-09-04
+N00049855,Greg Casar,Casar,D,TX35,M,2022,0,,,,,,,C001131,,H2TX35144,,,,
 N00005736,Brian Babin,Babin,R,TX36,M,2014,0,,202-225-1555,202-226-0396,http://babin.house.gov,,316 Cannon House Office Building,B001291,,H6TX02079,RepBrianBabin,,RepBrianBabin,1948-03-23
+N00006023,Lloyd Doggett,Doggett,D,TX37,M,1994,0,,202-225-4865,202-225-3073,https://doggett.house.gov,https://forms.house.gov/doggett/webforms/issue_subscribe.htm,2307 Rayburn House Office Building,D000399,21689,H4TX10028,RepLloydDoggett,https://youtube.com/doggett,lloyddoggett,1946-10-06
+N00044362,Wesley Hunt,Hunt,R,TX38,M,2022,0,,,,,,,H001095,,H0TX07170,,,,
 N00024852,John Cornyn,Cornyn,R,TXS1,M,2002,0,,202-224-2934,202-228-2856,https://www.cornyn.senate.gov,https://www.cornyn.senate.gov/contact,517 Hart Senate Office Building,C001056,15375,S2TX00106,JohnCornyn,https://youtube.com/senjohncornyn,sen.johncornyn,1952-02-02
 N00033085,Ted Cruz,Cruz,R,TXS2,M,2012,0,,202-224-5922,202-228-3398,https://www.cruz.senate.gov,http://www.cruz.senate.gov/?p=email_senator,404 Russell Senate Office Building,C001098,135705,S2TX00312,SenTedCruz,https://youtube.com/sentedcruz,SenatorTedCruz,1970-12-22

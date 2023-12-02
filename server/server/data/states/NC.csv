@@ -1,16 +1,17 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
-N00027035,G K Butterfield,Butterfield,D,NC01,M,2004,4,Retiring at end of 117th Congress,202-225-3101,202-225-3354,http://butterfield.house.gov,https://butterfield.house.gov/email-congressman-butterfield,2080 Rayburn House Office Building,B001251,41077,H4NC01046,GKButterfield,https://youtube.com/GKBNC01,congressmangkbutterfield,1947-04-27
+N00049636,Don Davis,Davis,D,NC01,M,2022,0,,,,,,,D000230,,H2NC02287,,,,
 N00038565,Deborah Ross,Ross,D,NC02,F,2020,0,,202225-3032,202225-0181,https://ross.house.gov/,,"1208 Longworth House Office Building Washington, DC  20515",R000305,,,@RepDeborahRoss,,,06/20/63
 N00044027,Greg Murphy,Murphy,R,NC03,M,2019,0,,,,,,,,,,,,,
-N00002260,David Price,Price,D,NC04,M,1986,4,Retiring at end of 117th Congress,202-225-1784,202-225-2014,https://price.house.gov,https://price.house.gov/contact,2108 Rayburn House Office Building,P000523,119,H6NC04037,RepDavidEPrice,https://youtube.com/RepDavidPrice,RepDavidEPrice,1940-08-17
+N00049652,Valerie Foushee,Foushee,D,NC04,F,2022,0,,,,,,,F000477,,H2NC06114,,,,
 N00026166,Virginia Foxx,Foxx,R,NC05,F,2004,0,,202-225-2071,202-225-2995,http://foxx.house.gov,https://foxx.house.gov/forms/writeyourrep/?zip5=&zip4=,2262 Rayburn House Office Building,F000450,6051,H4NC05146,VirginiaFoxx,https://youtube.com/repvirginiafoxx,RepVirginiaFoxx,1943-06-29
 N00042159,Kathy Manning,Manning,D,NC06,F,2020,0,,202225-3065,202225-8611,https://manning.house.gov/,,"415 Cannon House Office Building Washington, DC  20515",M001135,,,@RepKManning,,,12/03/56
 N00033527,David Rouzer,Rouzer,R,NC07,M,2014,0,,202-225-2731,202-225-5773,https://rouzer.house.gov,,424 Cannon House Office Building,R000603,,H2NC07096,RepDavidRouzer,,RepRouzer,1972-02-16
-N00033630,Richard Hudson,Hudson,R,NC08,M,2012,0,,202-225-3715,704-782-1004,https://hudson.house.gov,https://hudson.house.gov/email-me,429 Cannon House Office Building,H001067,136448,H2NC08185,RepRichHudson,https://youtube.com/RepRichHudson,RepRichHudson,1971-11-04
-N00044335,Dan Bishop,Bishop,R,NC09,M,2019,0,,,,,,,,,,,,,
+N00044335,Dan Bishop,Bishop,R,NC08,M,2019,3,Running for NC Attorney General,,,,,,,,,,,,
+N00033630,Richard Hudson,Hudson,R,NC09,M,2012,0,,202-225-3715,704-782-1004,https://hudson.house.gov,https://hudson.house.gov/email-me,429 Cannon House Office Building,H001067,136448,H2NC08185,RepRichHudson,https://youtube.com/RepRichHudson,RepRichHudson,1971-11-04
 N00026627,Patrick McHenry,Mchenry,R,NC10,M,2004,0,,202-225-2576,202-225-0316,http://mchenry.house.gov,http://mchenry.house.gov/contact/zipauth.htm,2334 Rayburn House Office Building,M001156,21031,H4NC10047,PatrickMcHenry,https://youtube.com/CongressmanMcHenry,CongressmanMcHenry,1975-10-22
-N00046252,Madison Cawthorn,Cawthorn,R,NC11,M,2020,20,Lost primary,202225-6401,,https://cawthorn.house.gov/,,"102 Cannon House Office Building, Washington, DC 20515",C001104,,,@RepCawthorn,,RepCawthorn,08/01/95
+N00049670,Chuck Edwards,Edwards,R,NC11,M,2022,0,,,,,,,E000246,,H2NC14050,,,,
 N00035451,Alma Adams,Adams,D,NC12,F,2014,0,,202-225-1510,202-225-1512,http://adams.house.gov,http://adams.house.gov/contact,222 Cannon House Office Building,A000370,,H4NC12100,RepAdams,,CongresswomanAdams,1946-05-27
-N00039551,Ted Budd,Budd,R,NC13,M,2016,15,Running for Senate,202-225-4531,,https://budd.house.gov,,118 Cannon House Office Building,B001305,,,RepTedBudd,,RepTedBudd,1971-10-21
+N00049133,Wiley Nickel,Nickel,D,NC13,M,2022,0,,,,,,,N000194,,H2NC14019,,,,
+N00050407,Jeff Jackson,Jackson,D,NC14,M,2022,3,Running for NC Attorney General,,,,,,J000308,,H2NC14076,,,,
 N00035492,Thom Tillis,Tillis,R,NCS1,M,2014,0,,202-224-6342,,https://www.tillis.senate.gov/public,https://www.tillis.senate.gov/public/index.cfm/email-me,185 Dirksen Senate Office Building,T000476,,S4NC00162,senthomtillis,,SenatorThomTillis,1960-08-30
-N00002221,Richard Burr,Burr,R,NCS2,M,2004,4,Retiring at end of 117th Congress,202-224-3154,202-228-2981,https://www.burr.senate.gov,https://www.burr.senate.gov/contact/email,217 Russell Senate Office Building,B001135,21787,S4NC00089,SenatorBurr,https://youtube.com/SenatorRichardBurr,SenatorRichardBurr,1955-11-30
+N00039551,Ted Budd,Budd,R,NCS2,M,2022,0,,202-225-4531,,https://budd.house.gov,,118 Cannon House Office Building,B001305,,S2NC00505,RepTedBudd,,RepTedBudd,1971-10-21

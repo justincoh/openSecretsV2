@@ -1,32 +1,29 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
-N00029404,Lee Zeldin,Zeldin,R,NY01,M,2014,16,Running for Governor,202-225-3826,202-225-3143,https://zeldin.house.gov,,1517 Longworth House Office Building,Z000017,,H8NY01148,RepLeeZeldin,,RepLeeZeldin,1980-01-30
+N00050419,Nick LaLota,LaLota,R,NY01,M,2022,0,,,,,,,L000598,,H2NY01190,,,,
 N00046030,Andrew Garbarino,Garbarino,R,NY02,M,2020,0,,202225-7896,202226-2279,https://garbarino.house.gov/,,"1516 Longworth House Office Building, Washington, DC 20515",G000597,,,@RepGarbarino,,RepAndrewGarbarino,09/27/84
-N00038742,Tom Suozzi,Suozzi,D,NY03,M,2016,16,Running for Governor,202-225-3335,202-225-4669,https://suozzi.house.gov,,226 Cannon House Office Building,S001201,,,RepTomSuozzi,,RepTomSuozzi,1962-08-31
-N00035927,Kathleen Rice,Rice,D,NY04,F,2014,4,Retiring at end of 117th Congress,202-225-5516,202-225-5758,http://kathleenrice.house.gov,,1508 Longworth House Office Building,R000602,,H4NY04075,RepKathleenRice,,RepKathleenRice,1965-02-15
+N00046427,George Santos,Santos,R,NY03,M,2022,4,Retiring at end of 118th Congress,,,,,,S001222,,H0NY03083,,,,
+N00050681,Anthony D'Esposito,D'Esposito,R,NY04,M,2022,0,,,,,,,D000632,,H2NY04277,,,,
 N00001171,Gregory Meeks,Meeks,D,NY05,M,1998,0,,202-225-3461,202-226-4169,http://meeks.house.gov,https://meeks.house.gov/contact-me/email-me,2234 Rayburn House Office Building,M001137,4360,H8NY06048,GregoryMeeks,https://youtube.com/gwmeeks,gregorymeeksny05,1953-09-25
 N00034547,Grace Meng,Meng,D,NY06,F,2012,0,,202-225-2601,202-225-1589,http://meng.house.gov,https://meng.house.gov/contact/email-me,1317 Longworth House Office Building,M001188,69157,H2NY06116,RepGraceMeng,,repgracemeng,1975-10-01
 N00001102,Nydia Velazquez,Velazquez,D,NY07,F,1992,0,,202-225-2361,202-226-0327,https://velazquez.house.gov,http://velazquez.house.gov/IMA/issue_subscribe.shtml,2302 Rayburn House Office Building,V000081,26975,H2NY00010,NydiaVelazquez,https://youtube.com/nydiavelazquez,8037068318,1953-03-28
 N00033640,Hakeem Jeffries,Jeffries,D,NY08,M,2012,0,,202-225-5936,,http://jeffries.house.gov,https://jeffriesforms.house.gov/contact/,1607 Longworth House Office Building,J000294,55285,H2NY10092,RepJeffries,,RepHakeemJeffries,1970-08-04
 N00026961,Yvette Clarke,Clarke,D,NY09,F,2006,0,,202-225-6231,202-226-0112,https://clarke.house.gov,https://clarke.house.gov/contact/email-me,2058 Rayburn House Office Building,C001067,44741,H4NY11138,RepYvetteClarke,https://youtube.com/repyvetteclarke,repyvettedclarke,1964-11-21
-N00000939,Jerrold Nadler,Nadler,D,NY10,M,1992,0,,202-225-5635,202-225-6923,http://nadler.house.gov,https://jerroldnadler.house.gov/forms/writeyourrep/default.aspx,2109 Rayburn House Office Building,N000002,26980,H2NY17071,RepJerryNadler,https://youtube.com/congressmannadler,CongressmanNadler,1947-06-13
+N00051424,Dan Goldman,Goldman,D,NY10,M,2022,0,,,,,,,G000599,,H2NY10308,,,,
 N00044040,Nicole Malliotakis,Malliotakis,R,NY11,F,2020,0,,202225-3371,,https://malliotakis.house.gov/,,"417 Cannon House Office Building, Washington, DC 20515",M000317,,,@RepMalliotakis,,,11/11/80
-N00000078,Carolyn Maloney,Maloney,D,NY12,F,1992,20,Lost primary,202-225-7944,202-225-4709,http://maloney.house.gov,https://maloney.house.gov/contact-me/email-me,2308 Rayburn House Office Building,M000087,26978,H2NY14037,RepMaloney,,RepCarolynMaloney,1946-02-19
-N00034549,Adriano Espaillat,Espaillat,D,NY13,M,2016,0,,202-225-4365,202-225-0816,https://espaillat.house.gov,,1630 Longworth House Office Building,E000297,,,RepEspaillat,,RepEspaillat,1954-09-27
-N00041162,Alexandria Ocasio-Cortez,Ocasio-Cortez,D,NY14,F,2018,0,,202-225-3965,,https://ocasio-cortez.house.gov/,,229 Cannon House Office Building,O000172,,,,,,1989-10-13
+N00000939,Jerrold Nadler,Nadler,D,NY12,M,1992,0,,202-225-5635,202-225-6923,http://nadler.house.gov,https://jerroldnadler.house.gov/forms/writeyourrep/default.aspx,2109 Rayburn House Office Building,N000002,26980,H2NY17071,RepJerryNadler,https://youtube.com/congressmannadler,CongressmanNadler,1947-06-13
+N00034549,Adriano Espaillat,Espaillat,D,NY13,M,2016,0,,202-225-4365,202-225-0816,https://espaillat.house.gov,,1630 Longworth House Office Building,E000297,,H2NY13096,RepEspaillat,,RepEspaillat,1954-09-27
+N00041162,Alexandria Ocasio-Cortez,Ocasio-Cortez,D,NY14,F,2018,0,,202-225-3965,,https://ocasio-cortez.house.gov/,,229 Cannon House Office Building,O000172,,H8NY15148,,,,1989-10-13
 N00044346,Ritchie Torres,Torres,D,NY15,M,2020,0,,202225-4361,202225-6001,https://ritchietorres.house.gov/,,"317 Cannon House Office Building Washington, DC  20515",T000486,,,@RepRitchie,,,03/12/88
 N00044790,Jamaal Bowman,Bowman,D,NY16,M,2020,0,,202225-2464,202225-5513,https://bowman.house.gov/,,"1605 Longworth House Office Building Washington, DC 20515",B001223,,,@RepBowman,,,04/01/76
-N00044908,Mondaire Jones,Jones,D,NY17,M,2020,20,Lost primary,202225-6506,202225-0546,https://jones.house.gov/,,"1017 Longworth HOB Washington, DC 20515",J000306,,,@RepJones,,,05/18/87
-N00034277,Sean Patrick Maloney,Maloney,D,NY18,M,2012,0,,202-225-5441,202-225-3289,http://seanmaloney.house.gov,https://seanmaloney.house.gov/contact/email-me,1027 Longworth House Office Building,M001185,139760,H2NY22139,RepSeanMaloney,,RepSeanMaloney,1966-07-30
-N00041165,Pat Ryan,Ryan,D,NY19,M,2022,0,Won special general 8/24/2022,,,,,,,,,,,,
-N00040741,Antonio Delgado,Delgado,D,NY19,M,2018,9,Resigned 5/25/2022 to become Lt Governor,202-225-5614,,https://delgado.house.gov/,,1007 Longworth House Office Building,D000630,,,repdelgado,,,1977-01-19
+N00051208,Mike Lawler,Lawler,R,NY17,M,2022,0,,,,,,,L000599,,H2NY17162,,,,
+N00041165,Pat Ryan,Ryan,D,NY18,M,2022,0,,,,,,,,,,,,,
+N00049147,Marc Molinaro,Molinaro,R,NY19,M,2022,0,,,,,,,M001221,,H2NY19127,,,,
 N00030196,Paul Tonko,Tonko,D,NY20,M,2008,0,,202-225-5076,202-225-5077,https://tonko.house.gov,https://tonko.house.gov/email-form1,2463 Rayburn House Office Building,T000469,4403,H8NY21203,RepPaulTonko,https://youtube.com/reppaultonko,reppaultonko,1949-06-18
 N00035523,Elise Stefanik,Stefanik,R,NY21,F,2014,0,,202-225-4611,202-226-0621,https://stefanik.house.gov,,318 Cannon House Office Building,S001196,,H4NY21079,RepStefanik,,RepEliseStefanik,1984-07-02
-N00036351,Claudia Tenney,Tenney,R,NY22,F,2020,0,,202-225-3665,,https://tenney.house.gov,,512 Cannon House Office Building,T000478,,,RepTenney,,RepClaudiaTenney,1961-02-04
-N00048747,Joe Sempolinski,Sempolinski,R,NY23,M,2022,4,Won special general 8/24/2022,,,,,,,,,,,,
-N00030949,Tom Reed,Reed,R,NY23,M,2010,2,"Resigned May 10, 2022",202-225-3161,202-226-6599,https://reed.house.gov,https://reed.house.gov/contact-me/email-me,2437 Rayburn House Office Building,R000585,127046,H0NY29054,RepTomReed,https://youtube.com/CongressmanTomReed,RepTomReed,1971-11-18
-N00035934,John Katko,Katko,R,NY24,M,2014,4,Retiring at end of 117th Congress,202-225-3701,202-225-4042,https://katko.house.gov,,1620 Longworth House Office Building,K000386,,H4NY24073,RepJohnKatko,,RepJohnKatko,1962-11-09
-N00043207,Joseph D Morelle,Morelle,D,NY25,M,2018,0,,202-225-3615,,https://morelle.house.gov,,1317 Longworth House Office Building,M001206,,,repjoemorelle,,,1957-04-29
+N00050433,Brandon Williams,Williams,R,NY22,M,2022,0,,,,,,,W000828,,H2NY22212,,,,
+N00051431,Nick Langworthy,Langworthy,R,NY23,M,2022,0,,,,,,,L000600,,H2NY23228,,,,
+N00036351,Claudia Tenney,Tenney,R,NY24,F,2020,0,,202-225-3665,,https://tenney.house.gov,,512 Cannon House Office Building,T000478,,H4NY22051,RepTenney,,RepClaudiaTenney,1961-02-04
+N00043207,Joseph D Morelle,Morelle,D,NY25,M,2018,0,,202-225-3615,,https://morelle.house.gov,,1317 Longworth House Office Building,M001206,,H8NY25105,repjoemorelle,,,1957-04-29
 N00027060,Brian Higgins,Higgins,D,NY26,M,2004,0,,202-225-3306,202-226-0347,http://higgins.house.gov,http://higgins.house.gov/contact/email-brian,2459 Rayburn House Office Building,H001038,23127,H4NY27076,RepBrianHiggins,https://youtube.com/CongressmanHiggins,RepBrianHiggins,1959-10-06
-N00044575,Chris Jacobs,Jacobs,R,NY27,M,2020,4,Retiring at end of 117th Congress,,,,,,,,,,,,
 N00027658,Kirsten Gillibrand,Gillibrand,D,NYS1,F,2009,0,,202-224-4451,202-228-0282,https://www.gillibrand.senate.gov,http://www.gillibrand.senate.gov/contact/,478 Russell Senate Office Building,G000555,65147,H6NY20167,SenGillibrand,https://youtube.com/KirstenEGillibrand,KirstenGillibrand,1966-12-09
 N00001093,Charles E Schumer,Schumer,D,NYS2,M,1998,0,,202-224-6542,202-228-3027,https://www.schumer.senate.gov,https://www.schumer.senate.gov/contact/email-chuck,322 Hart Senate Office Building,S000148,26976,S8NY00082,SenSchumer,https://youtube.com/SenatorSchumer,senschumer,1950-11-23

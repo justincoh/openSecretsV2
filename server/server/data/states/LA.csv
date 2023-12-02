@@ -1,10 +1,9 @@
 cid,firstlast,lastname,party,office,gender,first_elected,exit_code,comments,phone,fax,website,webform,congress_office,bioguide_id,votesmart_id,feccandid,twitter_id,youtube_url,facebook_id,birthdate
 N00009660,Steve Scalise,Scalise,R,LA01,M,2008,0,,202-225-3015,202-226-0386,http://scalise.house.gov,https://scalise.house.gov/contact-me/email-me,2338 Rayburn House Office Building,S001176,9026,H0LA01087,SteveScalise,https://youtube.com/RepSteveScalise,RepSteveScalise,1965-10-06
-N00025766,Troy Carter,Carter,D,LA02,M,2021,0,Won special runoff 4/24/2021,,,,,,,,,,,,
-N00030184,Cedric Richmond,Richmond,D,LA02,M,2010,6,Resigned to become Advisor to President,202-225-6636,202-225-1988,https://richmond.house.gov,https://richmond.house.gov/contact-me/email-me,420 Cannon House Office Building,R000588,35384,H8LA02054,RepRichmond,,RepRichmond,1973-09-13
-N00039953,Clay Higgins,Higgins,R,LA03,M,2016,0,,202-225-2031,,https://clayhiggins.house.gov,,1711 Longworth House Office Building,H001077,,,RepClayHiggins,,CongressmanCalHiggins,1961-08-24
-N00039106,Mike Johnson,Johnson,R,LA04,M,2016,0,,202-225-2777,,https://mikejohnson.house.gov,,327 Cannon House Office Building,J000291,,,RepMikeJohnson,,RepMikeJohnson,1972-01-30
-N00047972,Julia Letlow,Letlow,R,LA05,F,2021,0,Won special election 3/20/2021,,,,,,,,,,,,
+N00025766,Troy Carter,Carter,D,LA02,M,2021,0,,,,,,,,,,,,,
+N00039953,Clay Higgins,Higgins,R,LA03,M,2016,0,,202-225-2031,,https://clayhiggins.house.gov,,1711 Longworth House Office Building,H001077,,H6LA03148,RepClayHiggins,,CongressmanCalHiggins,1961-08-24
+N00039106,Mike Johnson,Johnson,R,LA04,M,2016,0,,202-225-2777,,https://mikejohnson.house.gov,,327 Cannon House Office Building,J000299,,H6LA04138,RepMikeJohnson,,RepMikeJohnson,1972-01-30
+N00047972,Julia Letlow,Letlow,R,LA05,F,2021,0,,,,,,,,,,,,,
 N00036135,Garret Graves,Graves,R,LA06,M,2014,0,,202-225-3901,202-225-7313,https://garretgraves.house.gov,,430 Cannon House Office Building,G000577,,H4LA06153,RepGarretGraves,,CongressmanGarretGraves,1972-01-31
 N00030245,Bill Cassidy,Cassidy,R,LAS1,M,2014,0,,202-224-5824,202-225-7313,https://www.cassidy.senate.gov,https://www.cassidy.senate.gov/contact,520 Hart Senate Office Building,C001075,69494,H8LA00017,billcassidy,https://youtube.com/SenatorBillCassidy,billcassidy,1957-09-28
-N00026823,John Kennedy,Kennedy,R,LAS2,M,2016,0,,202-224-4623,,https://www.kennedy.senate.gov,https://www.kennedy.senate.gov/content/contact-senator,B11 Russell Senate Office Building,K000393,,,SenJohnKennedy,,JohnKennedyLouisiana,1951-11-21
+N00026823,John Kennedy,Kennedy,R,LAS2,M,2016,0,,202-224-4623,,https://www.kennedy.senate.gov,https://www.kennedy.senate.gov/content/contact-senator,B11 Russell Senate Office Building,K000393,,S4LA00065,SenJohnKennedy,,JohnKennedyLouisiana,1951-11-21
