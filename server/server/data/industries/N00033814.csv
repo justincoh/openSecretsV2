@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+Q01,Republican/Conservative,317817,18500,336317,03/20/2023,2022
+Q03,Leadership PACs,0,221750,221750,03/20/2023,2022
+W06,Retired,100301,0,100301,03/20/2023,2022
+F10,Real Estate,68450,21500,89950,03/20/2023,2022
+F07,Securities & Investment,79951,2000,81951,03/20/2023,2022
+Q16,Candidate Committees,0,47900,47900,03/20/2023,2022
+N05,Business Services,36000,0,36000,03/20/2023,2022
+F03,Commercial Banks,10700,19500,30200,03/20/2023,2022
+H01,Health Professionals,16825,13000,29825,03/20/2023,2022
+K01,Lawyers/Law Firms,14113,15500,29613,03/20/2023,2022

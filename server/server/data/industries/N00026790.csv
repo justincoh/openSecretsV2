@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+F09,Insurance,1000,162500,163500,03/20/2023,2022
+F10,Real Estate,42775,87000,129775,03/20/2023,2022
+F03,Commercial Banks,0,82000,82000,03/20/2023,2022
+F07,Securities & Investment,7275,62500,69775,03/20/2023,2022
+P01,Building Trade Unions,250,53500,53750,03/20/2023,2022
+P02,Industrial Unions,0,47900,47900,03/20/2023,2022
+P04,Public Sector Unions,0,44500,44500,03/20/2023,2022
+W06,Retired,43126,0,43126,03/20/2023,2022
+K01,Lawyers/Law Firms,16200,21000,37200,03/20/2023,2022
+F13,Misc Finance,250,35300,35550,03/20/2023,2022

@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H01,Health Professionals,1435,100000,101435,03/20/2023,2022
+K01,Lawyers/Law Firms,32578,43800,76378,03/20/2023,2022
+F10,Real Estate,28575,41000,69575,03/20/2023,2022
+H03,Health Services/HMOs,8700,53000,61700,03/20/2023,2022
+M04,Railroads,11138,50377,61515,03/20/2023,2022
+F09,Insurance,45,60000,60045,03/20/2023,2022
+N15,Misc Manufacturing & Distributing,23500,30500,54000,03/20/2023,2022
+C04,Construction Services,70,51000,51070,03/20/2023,2022
+W06,Retired,49266,0,49266,03/20/2023,2022
+F07,Securities & Investment,31500,8500,40000,03/20/2023,2022

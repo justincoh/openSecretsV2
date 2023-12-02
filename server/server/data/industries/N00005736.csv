@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H01,Health Professionals,94724,60000,154724,03/20/2023,2022
+E01,Oil & Gas,32600,52500,85100,03/20/2023,2022
+W06,Retired,73476,0,73476,03/20/2023,2022
+M01,Air Transport,2000,54500,56500,03/20/2023,2022
+C01,General Contractors,27200,16500,43700,03/20/2023,2022
+F10,Real Estate,28104,12500,40604,03/20/2023,2022
+M02,Automotive,15800,15995,31795,03/20/2023,2022
+A01,Crop Production & Basic Processing,3750,24500,28250,03/20/2023,2022
+N15,Misc Manufacturing & Distributing,20300,0,20300,03/20/2023,2022
+M05,Sea Transport,2000,17500,19500,03/20/2023,2022

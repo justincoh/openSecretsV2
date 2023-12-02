@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+P03,Transportation Unions,0,44000,44000,03/20/2023,2022
+M02,Automotive,3000,34000,37000,03/20/2023,2022
+F10,Real Estate,22900,8000,30900,03/20/2023,2022
+M01,Air Transport,0,30000,30000,03/20/2023,2022
+P02,Industrial Unions,0,30000,30000,03/20/2023,2022
+K01,Lawyers/Law Firms,9048,20000,29048,03/20/2023,2022
+P04,Public Sector Unions,0,28500,28500,03/20/2023,2022
+P05,Misc Unions,5000,22500,27500,03/20/2023,2022
+A01,Crop Production & Basic Processing,2500,24500,27000,03/20/2023,2022
+Q10,Misc Issues,9300,13500,22800,03/20/2023,2022

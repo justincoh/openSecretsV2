@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+W06,Retired,112528,0,112528,03/20/2023,2022
+H01,Health Professionals,2260,100500,102760,03/20/2023,2022
+B09,Telecom Services,14500,80900,95400,03/20/2023,2022
+K01,Lawyers/Law Firms,40850,36250,77100,03/20/2023,2022
+B12,Electronics Mfg & Equip,3000,70000,73000,03/20/2023,2022
+K02,Lobbyists,51405,1000,52405,03/20/2023,2022
+E08,Electric Utilities,2800,40999,43799,03/20/2023,2022
+F10,Real Estate,26900,16500,43400,03/20/2023,2022
+H04,Pharmaceuticals/Health Products,2500,38500,41000,03/20/2023,2022
+H03,Health Services/HMOs,2900,33400,36300,03/20/2023,2022
