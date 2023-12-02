@@ -1,4 +1,4 @@
-STATES = {
+STATE_ABBREV_MAP = {
     "AL": "Alabama",
     "AK": "Alaska",
     "AZ": "Arizona ",

@@ -1,7 +1,7 @@
 import csv
-from utils import list_files_in_dir
-from . import CID_STATE_MAP
-from constants import STATES
+from server.data.utils import list_files_in_dir
+from server.data.cid_state_map import CID_STATE_MAP
+from server.constants.states import STATE_ABBREV_MAP
 
 INDUSTRIES = "industries"
 SECTORS = "sectors"
@@ -84,7 +84,7 @@ def sum_sectors_by_state():
 
   # prepopulate this for ease
   result = {}
-  for state in STATES.keys():
+  for state in STATE_ABBREV_MAP.keys():
     result[state] = {
       "indivs": 0,
       "pacs": 0,
