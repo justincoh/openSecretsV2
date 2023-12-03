@@ -1,9 +1,9 @@
 import csv
 import time
 
-from utils import list_files_in_dir
+from server.data.utils import list_files_in_dir
 from client import Client, RateLimitError, ClientError
-from constants import STATES, FAILED_CIDS, API_KEY
+from server.constants import STATE_ABBREV_MAP, FAILED_CIDS, API_KEY
 
 def write_state_csv(state_code="", client=None):
     state_reps = client.get_legislators_for_state(state_code=state_code)
@@ -101,7 +101,8 @@ class DataPuller(object):
                 except RateLimitError as e:
                     print(f"Rate limit exceeded. All failures: {failures}")
                     raise e
-                except ClientError as e:
+                # KeyError happens if returned data is empty
+                except (ClientError, KeyError) as e:
                     failures.append(f"{state_file_name}_{cid}")
                     print(f"Error getting data for CID: {cid}: {e}")
                     continue
