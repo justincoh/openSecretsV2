@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H01,Health Professionals,112709,262500,375209,03/20/2023,2022
+H04,Pharmaceuticals/Health Products,11300,124000,135300,03/20/2023,2022
+W06,Retired,124749,0,124749,03/20/2023,2022
+N07,Casinos/Gambling,115600,0,115600,03/20/2023,2022
+H03,Health Services/HMOs,3575,101000,104575,03/20/2023,2022
+K01,Lawyers/Law Firms,75328,27250,102578,03/20/2023,2022
+W04,Education,55550,0,55550,03/20/2023,2022
+K02,Lobbyists,45350,0,45350,03/20/2023,2022
+P04,Public Sector Unions,0,45000,45000,03/20/2023,2022
+F07,Securities & Investment,38600,5000,43600,03/20/2023,2022

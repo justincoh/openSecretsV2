@@ -1,0 +1,12 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+P04,Public Sector Unions,0,20000,20000,03/20/2023,2022
+D03,Misc Defense,2900,10500,13400,03/20/2023,2022
+P03,Transportation Unions,0,13000,13000,03/20/2023,2022
+B12,Electronics Mfg & Equip,2500,9500,12000,03/20/2023,2022
+P01,Building Trade Unions,0,10000,10000,03/20/2023,2022
+H01,Health Professionals,0,9500,9500,03/20/2023,2022
+F10,Real Estate,4000,2000,6000,03/20/2023,2022
+K01,Lawyers/Law Firms,750,5250,6000,03/20/2023,2022
+K02,Lobbyists,5750,0,5750,03/20/2023,2022
+M01,Air Transport,0,5500,5500,03/20/2023,2022
+H03,Health Services/HMOs,500,5000,5500,03/20/2023,2022

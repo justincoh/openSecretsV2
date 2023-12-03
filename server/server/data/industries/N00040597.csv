@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+F09,Insurance,8750,131500,140250,03/20/2023,2022
+F07,Securities & Investment,70300,35000,105300,03/20/2023,2022
+P04,Public Sector Unions,270,73500,73770,03/20/2023,2022
+K02,Lobbyists,71150,0,71150,03/20/2023,2022
+H01,Health Professionals,11650,58500,70150,03/20/2023,2022
+K01,Lawyers/Law Firms,55577,14500,70077,03/20/2023,2022
+Q03,Leadership PACs,0,67400,67400,03/20/2023,2022
+F10,Real Estate,19650,47000,66650,03/20/2023,2022
+H04,Pharmaceuticals/Health Products,4400,53000,57400,03/20/2023,2022
+F11,Accountants,10350,39000,49350,03/20/2023,2022

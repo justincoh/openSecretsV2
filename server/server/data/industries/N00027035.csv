@@ -1,0 +1,12 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H04,Pharmaceuticals/Health Products,3400,53000,56400,03/20/2023,2022
+B09,Telecom Services,0,21500,21500,03/20/2023,2022
+K02,Lobbyists,15300,500,15800,03/20/2023,2022
+A02,Tobacco,500,8500,9000,03/20/2023,2022
+K01,Lawyers/Law Firms,1000,7250,8250,03/20/2023,2022
+E08,Electric Utilities,0,7500,7500,03/20/2023,2022
+B08,Telephone Utilities,0,7500,7500,03/20/2023,2022
+H01,Health Professionals,500,6500,7000,03/20/2023,2022
+A01,Crop Production & Basic Processing,0,6000,6000,03/20/2023,2022
+B02,TV/Movies/Music,0,6000,6000,03/20/2023,2022
+P04,Public Sector Unions,0,6000,6000,03/20/2023,2022

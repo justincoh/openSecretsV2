@@ -1,0 +1,9 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+Q16,Candidate Committees,0,7000,7000,03/20/2023,2022
+Q01,Republican/Conservative,750,5000,5750,03/20/2023,2022
+Q03,Leadership PACs,0,3000,3000,03/20/2023,2022
+F03,Commercial Banks,2900,0,2900,03/20/2023,2022
+W06,Retired,2300,0,2300,03/20/2023,2022
+N15,Misc Manufacturing & Distributing,2900,-1000,1900,03/20/2023,2022
+M01,Air Transport,2800,-2000,800,03/20/2023,2022
+W03,Civil Servants/Public Officials,500,0,500,03/20/2023,2022
