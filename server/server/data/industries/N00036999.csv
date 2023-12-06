@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+P03,Transportation Unions,0,52500,52500,03/20/2023,2022
+P04,Public Sector Unions,0,33000,33000,03/20/2023,2022
+D03,Misc Defense,2000,26250,28250,03/20/2023,2022
+K02,Lobbyists,25222,0,25222,03/20/2023,2022
+K01,Lawyers/Law Firms,10900,11500,22400,03/20/2023,2022
+W06,Retired,22000,0,22000,03/20/2023,2022
+M01,Air Transport,0,21500,21500,03/20/2023,2022
+E08,Electric Utilities,0,21500,21500,03/20/2023,2022
+F10,Real Estate,12750,7000,19750,03/20/2023,2022
+P01,Building Trade Unions,0,19500,19500,03/20/2023,2022
