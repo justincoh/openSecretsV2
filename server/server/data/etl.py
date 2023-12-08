@@ -30,6 +30,9 @@ def consolidate_records(data_type=""):
   print(f"Working on {len(all_files)} files in dir {dir_to_read}")
 
   for file_name in all_files:
+    print(f"on file {file_name}")
+    if file_name == ".DS_Store":
+      continue
     with open(f"./data/{data_type}/{file_name}", "r") as infile:
       reader = csv.DictReader(infile)
       data = [row for row in reader]
