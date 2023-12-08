@@ -91,7 +91,7 @@ class Client(object):
     Summary of candidate's top contributing organizations
     'cycle' is an even year, e.g. 2016, 2018, 2020
     blank cycle means get most recent cycle
-    https://www.opensecrets.org/api/?method=candContrib&output=doc
+    https://www.opensecrets.org/api/?method=candContrib&output=json
     """
 
     kwargs = {"cid": cid}
@@ -111,8 +111,15 @@ class Client(object):
       'total': '20040',
       'pacs': '20000',
     'indivs': '40'}},
-      """
-    return res["contributors"]["contributor"]
+    """
+
+    contributors = res["contributors"]
+    return {
+      "cycle": contributors["@attributes"]["cycle"],
+      "source": contributors["@attributes"]["source"],
+      # "notice": contributors["@attributes"]["notice"],
+      "contributors": contributors["contributor"],
+    }
 
   def get_candidate_top_ten_industries(self, cid="", cycle=""):
     """

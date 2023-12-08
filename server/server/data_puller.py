@@ -51,6 +51,11 @@ class DataPuller(object):
                 "file_path": "./data/summaries/",
                 "fetch_function": self.get_candidate_overall_summary,
             },
+            "contributors": {
+                "failures": FAILED_CIDS,
+                "file_path": "./data/contributors/",
+                "fetch_function": self.get_candidate_contributors,
+            }
         }
 
     def pull_data_for_all_candidates(self, method=""):
@@ -58,9 +63,9 @@ class DataPuller(object):
         Assumes getLegislators has already been run for all states
         and the data is saved in ./data/states/{state_code}.csv
 
-        method must be one of ['industries', 'sectors', 'summaries']
+        method must be in the known methods list
         """
-        if method not in ["industries", "sectors", "summaries"]:
+        if method not in self.method_map.keys():
             raise NotImplementedError(f"Cannot pull data for method: {method}")
 
         # so we don't go fetch things for candidates we already did, OS api has a small
@@ -177,5 +182,40 @@ class DataPuller(object):
             writer = csv.DictWriter(outfile, fieldnames=response.keys())
             writer.writeheader()
             writer.writerow(response)
+
+        print(f"wrote file {file_name}")
+
+    def get_candidate_contributors(self, cid):
+        """
+        Gets contributor organizations / individuals for a given candidate
+
+        This notice must be present on displayed data, according to the docs
+        ---
+        The organizations themselves did not donate, rather the money
+        came from the organization's PAC, its individual members or
+        employees or owners, and those individuals' immediate families.
+        ---
+        """
+
+        contributor_data = self.client.get_candidate_contributors(cid=cid)
+        contributor_list= [item["@attributes"] for item in contributor_data["contributors"]]
+        file_name = f"./data/contributors/{cid}.csv"
+
+        # org_name, total, pacs, indivs
+        contributor_keys = contributor_list[0].keys()
+        csv_headers = list(contributor_keys) + ["cycle", "source", "cid"]
+
+        with open(file_name, "w") as outfile:
+            writer = csv.DictWriter(outfile, fieldnames=csv_headers)
+            writer.writeheader()
+
+            for row in contributor_list:
+                data = {
+                    "cycle": contributor_data["cycle"],
+                    "source": contributor_data["source"],
+                    "cid": cid,
+                    **row,
+                }
+                writer.writerow(data)
 
         print(f"wrote file {file_name}")
