@@ -90,7 +90,7 @@ class Client(object):
     """
     Summary of candidate's top contributing organizations
     'cycle' is an even year, e.g. 2016, 2018, 2020
-    blank cycle means get most recent cycle
+    blank cycle means get most recent cycle (Update: it doesn't actually behave that way, you should pass it in)
     https://www.opensecrets.org/api/?method=candContrib&output=json
     """
 
@@ -127,6 +127,8 @@ class Client(object):
     cycle indicates even numbered election year
     blank cycle means most recent
     https://www.opensecrets.org/api/?method=candIndustry&output=doc
+
+    the top industry is retired: https://www.opensecrets.org/industries//background?cycle=All&ind=w06
     """
     kwargs = {"cid": cid}
 

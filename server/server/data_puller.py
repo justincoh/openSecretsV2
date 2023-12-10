@@ -3,7 +3,12 @@ import time
 
 from server.data.utils import list_files_in_dir
 from client import Client, RateLimitError, ClientError
-from server.constants import STATE_ABBREV_MAP, FAILED_CIDS, API_KEY
+from server.constants import (
+    STATE_ABBREV_MAP,
+    FAILED_CIDS,
+    API_KEY,
+    FAILED_INDUSTRY_CIDS,
+)
 
 def write_state_csv(state_code="", client=None):
     state_reps = client.get_legislators_for_state(state_code=state_code)
@@ -42,12 +47,12 @@ class DataPuller(object):
                 "fetch_function": self.get_sector_summary_for_cid,
             },
             "industries": {
-                "failures": FAILED_CIDS,
+                "failures": FAILED_INDUSTRY_CIDS,
                 "file_path": "./data/industries/",
                 "fetch_function": self.get_top_ten_industries_for_cid,
             },
             "summaries": {
-                "failures": [],  # haven't encountered any summary failures yet
+                "failures": [],  # doesn't matter, rate limit is higher here, also rarely fails
                 "file_path": "./data/summaries/",
                 "fetch_function": self.get_candidate_overall_summary,
             },
@@ -129,7 +134,7 @@ class DataPuller(object):
     def get_sector_summary_for_cid(self, cid):
         # wrap this in a try / except in the eventual caller to be safe
         # also handle the "does this file already exist? but in the caller"
-        response = self.client.get_candidate_total_by_sector(cid=cid)
+        response = self.client.get_candidate_total_by_sector(cid=cid, cycle="2022")
 
         # this needs to get the right keys now
         data = response["data"]
@@ -152,7 +157,7 @@ class DataPuller(object):
         print(f"wrote file {file_name}")
 
     def get_top_ten_industries_for_cid(self, cid):
-        response = self.client.get_candidate_top_ten_industries(cid=cid)
+        response = self.client.get_candidate_top_ten_industries(cid=cid, cycle="2022")
 
         # this needs to get the right keys now
         data = response["data"]
@@ -176,7 +181,7 @@ class DataPuller(object):
 
     def get_candidate_overall_summary(self, cid):
         # candidate overall summary is a much simpler endpoint
-        response = self.client.get_candidate_summary(cid=cid)
+        response = self.client.get_candidate_summary(cid=cid, cycle="2022")
         file_name = f"./data/summaries/{cid}.csv"
         with open(file_name, "w") as outfile:
             writer = csv.DictWriter(outfile, fieldnames=response.keys())
@@ -197,7 +202,7 @@ class DataPuller(object):
         ---
         """
 
-        contributor_data = self.client.get_candidate_contributors(cid=cid)
+        contributor_data = self.client.get_candidate_contributors(cid=cid, cycle="2022")
         contributor_list= [item["@attributes"] for item in contributor_data["contributors"]]
         file_name = f"./data/contributors/{cid}.csv"
 
