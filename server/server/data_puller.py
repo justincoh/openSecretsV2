@@ -24,7 +24,7 @@ def write_all_states(client=None):
     if client is None:
         client = Client(api_key=API_KEY)
 
-    for state_code in STATES.keys():
+    for state_code in STATE_ABBREV_MAP.keys():
         write_state_csv(state_code=state_code, client=client)
         time.sleep(1)
 
