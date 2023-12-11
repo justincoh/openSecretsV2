@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+H01,Health Professionals,20969,68000,88969,03/20/2023,2022
+W06,Retired,86487,0,86487,03/20/2023,2022
+P04,Public Sector Unions,0,80000,80000,03/20/2023,2022
+P01,Building Trade Unions,0,68000,68000,03/20/2023,2022
+P02,Industrial Unions,0,52000,52000,03/20/2023,2022
+P03,Transportation Unions,0,42000,42000,03/20/2023,2022
+P05,Misc Unions,1,37500,37501,03/20/2023,2022
+F10,Real Estate,17618,10000,27618,03/20/2023,2022
+A01,Crop Production & Basic Processing,250,26500,26750,03/20/2023,2022
+W04,Education,25187,0,25187,03/20/2023,2022
