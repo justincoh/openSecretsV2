@@ -4,10 +4,11 @@ import time
 from server.data.utils import list_files_in_dir
 from client import Client, RateLimitError, ClientError
 from server.constants import (
-    STATE_ABBREV_MAP,
-    FAILED_CIDS,
     API_KEY,
+    FAILED_CONTRIBUTOR_CIDS,
     FAILED_INDUSTRY_CIDS,
+    FAILED_SECTOR_CIDS,
+    STATE_ABBREV_MAP,
 )
 
 def write_state_csv(state_code="", client=None):
@@ -42,7 +43,7 @@ class DataPuller(object):
 
         self.method_map = {
             "sectors": {
-                "failures": FAILED_CIDS,
+                "failures": FAILED_SECTOR_CIDS,
                 "file_path": "./data/sectors/",
                 "fetch_function": self.get_sector_summary_for_cid,
             },
@@ -57,7 +58,7 @@ class DataPuller(object):
                 "fetch_function": self.get_candidate_overall_summary,
             },
             "contributors": {
-                "failures": FAILED_CIDS,
+                "failures": FAILED_CONTRIBUTOR_CIDS,
                 "file_path": "./data/contributors/",
                 "fetch_function": self.get_candidate_contributors,
             }
