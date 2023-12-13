@@ -1,0 +1,11 @@
+industry_code,industry_name,indivs,pacs,total,last_updated,cycle
+K01,Lawyers/Law Firms,28250,21500,49750,03/20/2023,2022
+P01,Building Trade Unions,0,49000,49000,03/20/2023,2022
+K02,Lobbyists,42020,2000,44020,03/20/2023,2022
+P04,Public Sector Unions,0,30000,30000,03/20/2023,2022
+Q05,Pro-Israel,11045,12500,23545,03/20/2023,2022
+Q02,Democratic/Liberal,16100,5500,21600,03/20/2023,2022
+F10,Real Estate,10233,10500,20733,03/20/2023,2022
+H04,Pharmaceuticals/Health Products,8050,12500,20550,03/20/2023,2022
+W06,Retired,19691,0,19691,03/20/2023,2022
+D03,Misc Defense,0,19000,19000,03/20/2023,2022
