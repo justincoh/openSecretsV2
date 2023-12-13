@@ -1,0 +1,14 @@
+sector_name,sectorid,indivs,pacs,total,last_updated,cycle
+Agribusiness,A,1494,0,1494,03/20/2023,2022
+Communic/Electronics,B,33851,0,33851,03/20/2023,2022
+Construction,C,6075,0,6075,03/20/2023,2022
+Defense,D,2719,0,2719,03/20/2023,2022
+Energy/Nat Resource,E,555,0,555,03/20/2023,2022
+Finance/Insur/RealEst,F,91099,-2000,89099,03/20/2023,2022
+Health,H,55703,0,55703,03/20/2023,2022
+Lawyers & Lobbyists,K,57696,500,58196,03/20/2023,2022
+Transportation,M,618,0,618,03/20/2023,2022
+Misc Business,N,39323,0,39323,03/20/2023,2022
+Labor,P,536,71500,72036,03/20/2023,2022
+Ideology/Single-Issue,Q,24726,38985,63711,03/20/2023,2022
+Other,W,233022,0,233022,03/20/2023,2022
