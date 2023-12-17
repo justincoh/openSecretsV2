@@ -7,14 +7,21 @@ INDUSTRIES = "industries"
 SECTORS = "sectors"
 STATES = "states"
 SUMMARIES = "summaries"
+CONTRIBUTORS = "contributors"
 
 def generate_master_data_file_for_type(data_type=""):
-  if data_type not in [INDUSTRIES, SECTORS, STATES, SUMMARIES]:
+  if data_type not in [
+    CONTRIBUTORS,
+    INDUSTRIES,
+    SECTORS,
+    STATES,
+    SUMMARIES,
+  ]:
     raise NotImplementedError(f"{data_type} is not valid for ETL")
 
   all_records = consolidate_records(data_type)
 
-  write_final_csv(all_records, file_path=f"./data/{data_type}/ALL_CANDIDATES.csv")
+  write_final_csv(all_records, file_path=f"./data/seeds/ALL_CANDIDATES_{data_type.upper()}.csv")
 
 
 def consolidate_records(data_type=""):
