@@ -62,6 +62,7 @@ def write_final_csv(all_records, file_path=""):
   Compiles the reps from all 50 state files into one master csv
   So I can seed a DB with it directly (and make updating easier)
   """
+  # Maybe filter out the extra stuff from the STATES file?
   headers = all_records[0].keys()
   with open(f"{file_path}", "w") as outfile:
     writer = csv.DictWriter(outfile, fieldnames=headers)

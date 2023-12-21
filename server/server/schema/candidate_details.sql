@@ -16,5 +16,6 @@ CREATE TABLE candidate_details (
     state TEXT
 );
 
-
---- \COPY candidate_details from '~/Projects/openSecretsV2/server/server/data/states/ALL_CANDIDATES_STATES.csv' WITH CSV HEADER;
+--- This file has a bunch of extra columns, might want to revisit the ETL file for this one
+--- for now just manually delete the extras
+--- \COPY candidate_details from '~/Projects/openSecretsV2/server/server/data/seeds/ALL_CANDIDATES_STATES.csv' WITH CSV HEADER;

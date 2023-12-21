@@ -12,4 +12,4 @@ CREATE TABLE industries (
 
 --- It looks like the FK referecne fails for former reps, they're no longer int he states list
 --- verify the right number of candidates are there, do we have all 535?
---- \COPY industries from '~/Projects/openSecretsV2/server/server/data/industries/ALL_CANDIDATES_INDUSTRIES.csv' WITH CSV HEADER;
+--- \COPY industries from '~/Projects/openSecretsV2/server/server/data/seeds/ALL_CANDIDATES_INDUSTRIES.csv' WITH CSV HEADER;
