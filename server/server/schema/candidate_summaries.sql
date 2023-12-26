@@ -18,5 +18,5 @@ CREATE TABLE candidate_summaries (
 
 --- ERROR:  invalid input syntax for type integer: "3153275.32"
 --- CONTEXT:  COPY candidates, line 2, column total: "3153275.32"
---- \COPY candidate_summaries from '~/Projects/openSecretsV2/server/server/data/summaries/ALL_CANDIDATES_SUMMARIES.csv' WITH CSV HEADER;
+--- \COPY candidate_summaries from '~/Projects/openSecretsV2/server/server/data/seeds/ALL_CANDIDATES_SUMMARIES.csv' WITH CSV HEADER;
 --- COPY 628
